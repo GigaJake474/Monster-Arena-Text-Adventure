@@ -26,6 +26,7 @@ else:
 
 time.sleep(2)
 print("Ok, welcome to the arena. To survive you must defeat many violent, merciless monsters.")
+time.sleep(1)
 
 #Battles Start
 print("You see Grandpa Goblin. He is very short so you can just kick him like its the opening of the Super Bowl")
