@@ -32,6 +32,7 @@ time.sleep(1)
 
 #First Battle
 print("You see Grandpa Goblin. He is very short so you can just kick him like its the opening of the Super Bowl")
+time.sleep(1)
 input("Type a number between 1 and 20.")
 random_int = random.randint(1,20)
 if random_int == input:
@@ -41,7 +42,9 @@ else:
     print("O.K. But dont be to proud, my grandma fights better then ye an she's dead!")
 
 #Second Battle
+time.sleep(1)
 print("You see zombie. Yup just a zombie, so original.")
+time.sleep(1)
 input("Type a number between 1 and 15.")
 random_int = random.randint(1,15)
 if random_int == input:
@@ -51,7 +54,9 @@ else:
     print("Nice, but if ye keep braggin, im gonna pumble you.")
 
 #Third Battle
+time.sleep(1)
 print("You see a posessed toilet, or what gen alphas call Skibidi Toilets.")
+time.sleep(1)
 input("Type a number between 1 and 12.")
 random_int = random.randint(1,12)
 if random_int == input:
