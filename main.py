@@ -64,3 +64,15 @@ if random_int == input:
 else:
     time.sleep(1)
     print("A royal flush!")
+
+#Fourth Battle
+time.sleep(1)
+print("You see a knockoff Charzard named Fire Dragon.")
+time.sleep(1)
+input("Type a number between 1 and 6.")
+random_int = random.randint(1,6)
+if random_int == input:
+    death()
+else:
+    time.sleep(1)
+    print("I don't choose you Fire Dragon!")
