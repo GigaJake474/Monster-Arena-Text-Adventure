@@ -33,8 +33,8 @@ time.sleep(1)
 #First Battle
 print("You see Grandpa Goblin. He is very short so you can just kick him like its the opening of the Super Bowl")
 time.sleep(1)
-input("Type a number between 1 and 20.")
-random_int = random.randint(1,20)
+input("Type a number between 1 and 10.")
+random_int = random.randint(1,10)
 if random_int == input:
     death()
 else:
@@ -45,8 +45,8 @@ else:
 time.sleep(1)
 print("You see zombie. Yup just a zombie, so original.")
 time.sleep(1)
-input("Type a number between 1 and 15.")
-random_int = random.randint(1,15)
+input("Type a number between 1 and 7.")
+random_int = random.randint(1,7)
 if random_int == input:
     death()
 else:
@@ -57,8 +57,8 @@ else:
 time.sleep(1)
 print("You see a posessed toilet, or what gen alphas call Skibidi Toilets.")
 time.sleep(1)
-input("Type a number between 1 and 12.")
-random_int = random.randint(1,12)
+input("Type a number between 1 and 5.")
+random_int = random.randint(1,5)
 if random_int == input:
     death()
 else:
@@ -69,8 +69,8 @@ else:
 time.sleep(1)
 print("You see a knockoff Charzard named Fire Dragon.")
 time.sleep(1)
-input("Type a number between 1 and 6.")
-random_int = random.randint(1,6)
+input("Type a number between 1 and 3.")
+random_int = random.randint(1,3)
 if random_int == input:
     death()
 else:
