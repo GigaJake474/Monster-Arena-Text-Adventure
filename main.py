@@ -76,3 +76,28 @@ if random_int == input:
 else:
     time.sleep(1)
     print("I don't choose you Fire Dragon!")
+
+#Fith Battle
+time.sleep(1)
+print("FINAL BOSS!")
+time.sleep(1)
+print("You see a horendous monster that is trying to eat the world, its name is...")
+time.sleep(0.75)
+print("HOMER SIMPSON!")
+time.sleep(1)
+input("Type a number between 1 and 2.")
+random_int = random.randint(1,2)
+if random_int == input:
+    death()
+else:
+    time.sleep(1)
+    print("You have defeated the final boss!")
+    time.sleep(0.75)
+    print("You hear a loud DOH through the arena")
+    time.sleep(3)
+    print("YOU")
+    time.sleep(0.75)
+    print("HAVE")
+    time.sleep(0.75)
+    print("WON!")
+    time.sleep(0.75)
