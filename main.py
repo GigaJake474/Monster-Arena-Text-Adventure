@@ -37,3 +37,12 @@ if random_int == input:
 else:
     time.sleep(1)
     print("O.K. But dont be to proud, my grandma fights better then ye an she's dead!")
+
+print("You see zombie. Yup just a zombie, so original.")
+input("Type a number between 1 and 15.")
+random_int = random.randint(1,15)
+if random_int == input:
+    death()
+else:
+    time.sleep(1)
+    print("Nice, but if ye keep braggin, im gonna pumble you.")
