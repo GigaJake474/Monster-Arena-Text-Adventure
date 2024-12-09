@@ -102,3 +102,8 @@ else:
     time.sleep(0.75)
     print("WON!")
     time.sleep(0.75)
+input("Wow! Good job, do you want to keep on fighting (hard mode)? 1 = Y 2 = n")
+if input == 1:
+    print("Ok, well to bad because I havnt code this yet!")
+else:
+    exit(1)
