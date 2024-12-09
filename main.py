@@ -7,6 +7,7 @@ def death():
     print("Holy Crap! My Grandma is better at battling then ye!")
     time.sleep(2)
     print("GAME OVER")
+    exit(1)
 
 # Intro
 time.sleep(1.5)
