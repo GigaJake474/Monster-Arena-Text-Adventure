@@ -7,7 +7,7 @@ def death():
     print("Holy Crap! My Grandma is better at battling then ye!")
     time.sleep(2)
     print("GAME OVER")
-    exit(1)
+    quit()
 
 # Intro
 time.sleep(1.5)
@@ -23,7 +23,7 @@ else:
     print("Ok, I ges yer runnin away like the coward ye are.")
     time.sleep(2)
     print("THE END")
-    exit(1)
+    quit()
 
 time.sleep(2)
 print("Ok, welcome to the arena. To survive you must defeat many violent, merciless monsters.")
@@ -103,7 +103,81 @@ else:
     print("WON!")
     time.sleep(0.75)
 input("Wow! Good job, do you want to keep on fighting (hard mode)? 1 = Y 2 = n")
+
+#Hard Mode
 if input == 1:
-    print("Ok, well to bad because I havnt code this yet!")
+    
+    #First Hard Battle
+    print("You see Grandpa Goblin. He is very short so you can just kick him like its the opening of the Super Bowl")
+    time.sleep(1)
+    input("Type a number between 1 and 5.")
+    random_int = random.randint(1,5)
+    if random_int == input:
+        death()
+    else:
+        time.sleep(1)
+        print("O.K. But dont be to proud, my grandma fights better then ye an she's dead!")
+
+    #Second Hard Battle
+    time.sleep(1)
+    print("You see zombie. Yup just a zombie, so original.")
+    time.sleep(1)
+    input("Type a number between 1 and 4.")
+    random_int = random.randint(1,4)
+    if random_int == input:
+        death()
+    else:
+        time.sleep(1)
+    print("Nice, but if ye keep braggin, im gonna pumble you.")
+
+    #Third Hard Battle
+    time.sleep(1)
+    print("You see a posessed toilet, or what gen alphas call Skibidi Toilets.")
+    time.sleep(1)
+    input("Type a number between 1 and 3.")
+    random_int = random.randint(1,3)
+    if random_int == input:
+        death()
+    else:
+        time.sleep(1)
+        print("A royal flush!")
+
+    #Fourth Hard Battle
+    time.sleep(1)
+    print("You see a knockoff Charzard named Fire Dragon.")
+    time.sleep(1)
+    input("Type a number between 1 and 2.")
+    random_int = random.randint(1,2)
+    if random_int == input:
+        death()
+    else:
+        time.sleep(1)
+        print("I don't choose you Fire Dragon!")
+
+    #Fith Hard Battle
+    time.sleep(1)
+    print("FINAL BOSS!")
+    time.sleep(1)
+    print("You see a horendous monster that is trying to eat the world, its name is...")
+    time.sleep(0.75)
+    print("HOMER SIMPSON!")
+    time.sleep(1)
+    input("Type a number between 1 and 5.")
+    random_int = random.randint(1,5)
+    if random_int == input:
+        time.sleep(1)
+        print("You have defeated the final boss!")
+        time.sleep(0.75)
+        print("You hear a loud DOH through the arena")
+        time.sleep(3)
+        print("YOU")
+        time.sleep(0.75)
+        print("HAVE")
+        time.sleep(0.75)
+        print("WON!")
+        time.sleep(0.75)
+        quit()
+    else:
+        death()
 else:
-    exit(1)
+    quit()
