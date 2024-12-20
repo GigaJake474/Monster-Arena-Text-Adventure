@@ -19,7 +19,7 @@ def scifi_DLC():
 
     if introAnswer == "1":
         time.sleep(0.5)
-        print("Ok, now get in he arena cause I can put you in warm or I can put you in cold..")
+        print("Ok, now get in the arena cause I can put you in warm or I can put you in cold..")
     else:
         time.sleep(0.5)
         print("Ok, I guess your going in cold.")
