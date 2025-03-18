@@ -3,12 +3,38 @@ import random
 import scifi_DLC
 import comedy_DLC 
 
-# Functions
+#Functions
 def death():
     print("Holy Crap! My Grandma is better at battling than ye!")
     time.sleep(2)
     print("GAME OVER")
     quit()
+
+#Variables
+hardcore = False
+
+#This asks if the player wants to play hardcore mode
+player_input = input("Do you want to play hardcore mode?  1 = yes/2 = no: ")
+player_answered = False  # Initialize player_answered before the loop
+
+while player_answered == False:
+    try:
+        player_input = int(player_input)  # Convert input to an integer
+    except ValueError:
+        print("Please enter a valid number (1 or 2).")
+        player_input = input("Do you want to play hardcore mode?  1 = yes/2 = no: ")
+        continue
+
+    if player_input == 1:
+        hardcore = True
+        player_answered = True
+    elif player_input == 2:
+        hardcore = False
+        player_answered = True
+    else:
+        print("Invalid choice. Please enter 1 or 2.")
+        player_input = input("Do you want to play hardcore mode?  1 = yes/2 = no: ")
+
 
 #This checks for dlc's and loads dlc's
 player_input = input("type the name of the dlc if you don't have any type none.")
