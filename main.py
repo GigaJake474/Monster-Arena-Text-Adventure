@@ -54,7 +54,7 @@ else:
         death()
     else:
         time.sleep(1)
-        print("Nice, but if ye keep braggin, I'm gonna pummel you.")
+        print("Nice, but if ye keep braggin, I'm gonna pumbel you.")
     # Third Battle
     time.sleep(1)
     print("You see a possessed toilet, or what gen alphas call Skibidi Toilets.")
