@@ -84,14 +84,15 @@ def scifi_DLC():
     time.sleep(1)
     print("FINAL BOSS!")
     time.sleep(1)
-    print("You see a dark figure aproach you.")
+    print("You see a sentient fart cloud!")
     time.sleep(0.75)
     print("It's Dark Helmet!")
     time.sleep(1)
     user_input = input("Type a number between 1 and 2.")
     random_int = random.randint(1, 2)
     if random_int == int(user_input):
-        death()
+        print("You die of methane overdose.")
+        quit()
     else:
         time.sleep(1)
         print("You used the schwartz and defeated Dark Helmet!")
