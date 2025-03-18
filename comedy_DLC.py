@@ -10,7 +10,7 @@ def death():
     quit()
 
 #The DLC
-def scifi_DLC():
+def comedy_DLC():
     # Intro
     time.sleep(1.5)
     print("Welcome to alien arena.")
@@ -34,7 +34,7 @@ def scifi_DLC():
     # Battles Start
 
     # First Battle
-    print("You see Kang and Kodos and they look very hangry.")
+    print("You see Mike from Monsters inc. and he looks very hangry.")
     time.sleep(1)
     user_input = input("Type a number between 1 and 10.")
     random_int = random.randint(1, 10)
@@ -42,7 +42,7 @@ def scifi_DLC():
         death()
     else:
         time.sleep(1)
-        print("O.K. well they got outsmarted by Homer Simpson, so don't be to proud.")
+        print("O.K. well he got outsmarted by Homer Simpson, so don't be to proud.")
 
     # Second Battle
     time.sleep(1)
