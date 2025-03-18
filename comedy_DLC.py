@@ -105,3 +105,4 @@ def scifi_DLC():
         time.sleep(0.75)
         print("WON!")
         time.sleep(0.75)
+        quit()

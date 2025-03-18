@@ -1,6 +1,7 @@
 import time
 import random
-import scifi_DLC 
+import scifi_DLC
+import comedy_DLC 
 
 # Functions
 def death():
@@ -15,6 +16,10 @@ if player_input == "sci-fi":
     print("Loading DLC")
     time.sleep(1)
     scifi_DLC()
+elif player_input == "comedy":
+    print("Loading DLC")
+    time.sleep(1)
+    comedy_DLC()
 else:
     # Intro
     time.sleep(1.5)
