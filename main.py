@@ -1,6 +1,7 @@
 import time
 import random
-import scifi_DLC 
+import scifi_DLC
+import comedy_DLC 
 
 # Functions
 def death():
@@ -15,6 +16,10 @@ if player_input == "sci-fi":
     print("Loading DLC")
     time.sleep(1)
     scifi_DLC()
+elif player_input == "comedy":
+    print("Loading DLC")
+    time.sleep(1)
+    comedy_DLC()
 else:
     # Intro
     time.sleep(1.5)
@@ -54,7 +59,7 @@ else:
         death()
     else:
         time.sleep(1)
-        print("Nice, but if ye keep braggin, I'm gonna pummel you.")
+        print("Nice, but if ye keep braggin, I'm gonna pumbel you.")
     # Third Battle
     time.sleep(1)
     print("You see a possessed toilet, or what gen alphas call Skibidi Toilets.")
