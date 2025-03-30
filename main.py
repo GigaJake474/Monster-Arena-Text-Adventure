@@ -46,6 +46,10 @@ elif player_input == "comedy":
     print("Loading DLC")
     time.sleep(1)
     comedy_DLC()
+elif player_input == "sci-fi":
+    print("Loading DLC")
+    time.sleep(1)
+    scifi_DLC()
 else:
     # Intro
     time.sleep(1.5)
